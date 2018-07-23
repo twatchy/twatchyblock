@@ -11,6 +11,6 @@ app = Flask(__name__)
 @app.route("/sample/<message>")
 def hello(message):
     return  jsonify(
-        data='Hello World',
+        data='yoohoo',
         output=message
     )
